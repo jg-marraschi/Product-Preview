@@ -1,0 +1,156 @@
+.produto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+.nome{
+    font-family: 'Fraunces', sans-serif;
+    box-sizing: border-box;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: block;
+    font-size: 30px;
+    font-weight: 600px;
+    letter-spacing: normal;
+    line-height: 30px;
+    padding-bottom: 9px;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+}   
+.descricao{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13.5px;
+    max-width: 230px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+.valor-desconto{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 25px;
+    color: rgb(59, 122, 59);
+    box-sizing: border-box;
+    display: block;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 4px;
+    margin-left: 25px;
+    margin-top: 15px;
+    min-height: 40px;
+    position: static;
+    text-align: left;
+}
+.valor-integral{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    display: block;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 4px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: -39px;
+    position: static;
+    text-align: left;
+}
+.botao{
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: rgb(59, 122, 59);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+.botao:hover{
+    background-color: rgb(70, 160, 70);
+}
+.icone-carrinho{
+    box-sizing: border-box;
+    margin-right: 400px;
+    margin-top: 4px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.add-cart{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin-left:20px;
+    margin-right: 0px;
+    margin-top: -30px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    
+}
+.fundo{
+    background-color: rgb(235, 216, 193);
+}
+.perfume{
+    width: 250px;
+    height: 400px; 
+    margin-top: 100px;
+    margin-left: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content:left ;
+}
+.informacoes{
+    height: 400px;
+    margin-left: 650px;
+    margin-top: -400px;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    max-width: 270px;
+    max-height: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+.menu-lateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.menu-lateral ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-lateral .icone{
+    width: 30px;
+    transition: 0.3s ease-in-out;
+}
+.menu-lateral .icone:hover{
+    transform: scale(1.2);
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
